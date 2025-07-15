@@ -1,0 +1,7 @@
+.section-box {
+  background-color: #d3d3d3;
+  padding: 20px;
+  margin-bottom: 20px;
+  min-height: 1000px; /* forces scrolling */
+  border: 1px solid #aaa;
+}
