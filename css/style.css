@@ -1,0 +1,57 @@
+/* General layout enhancements */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section box styling */
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+/* Section headers */
+h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #343a40;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Navbar brand font */
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #007bff !important;
+}
+
+/* Image styling */
+img.img-fluid {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* Add shadows to content boxes */
+.shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Center menu links in mobile nav */
+.navbar-nav .nav-link {
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
